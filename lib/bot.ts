@@ -31,11 +31,14 @@ bot.onNewMention(async (thread) => {
   await thread.subscribe();
 
   await thread.post({
-    ast: root([
-      Image({
+    attachments: [
+      {
+        mimeType: "image/gif",
+        type: "image",
         url: "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXliMGlnZXZ1ajU1dzcwNHk3MWd6aTZkZ204Y2R2cHM4bTJjNGE3aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dtfUJxOTqhHO/giphy.gif",
-      }),
-    ]),
+      },
+    ],
+    markdown: "whats good?",
   });
 });
 
