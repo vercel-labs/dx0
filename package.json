@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "check": "ultracite check",
+    "fix": "ultracite fix"
   },
   "dependencies": {
     "next": "16.1.6",
@@ -17,7 +19,10 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "oxfmt": "^0.33.0",
+    "oxlint": "^1.48.0",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "ultracite": "7.2.3"
   }
 }
