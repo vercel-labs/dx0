@@ -10,6 +10,9 @@
     "fix": "ultracite fix"
   },
   "dependencies": {
+    "@chat-adapter/slack": "^4.11.0",
+    "@chat-adapter/state-redis": "^4.11.0",
+    "chat": "^4.11.0",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3"
